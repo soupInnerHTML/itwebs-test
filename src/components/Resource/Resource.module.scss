@@ -1,0 +1,8 @@
+@reference "tailwindcss";
+
+.resource {
+  @apply flex items-center flex-col
+}
+.color {
+  @apply w-12 h-12 rounded-full
+}

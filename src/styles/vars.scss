@@ -1,0 +1,3 @@
+@mixin buttonBase {
+  @apply text-white cursor-pointer bg-blue-600 hover:bg-blue-700 rounded transition-colors duration-200
+}

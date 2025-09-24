@@ -1,0 +1,16 @@
+@reference "tailwindcss";
+@import "src/styles/vars";
+
+
+.button {
+    @include buttonBase;
+    @apply w-full mt-auto text-sm font-semibold py-1 px-3;
+}
+
+.card {
+    @apply bg-gray-900 shadow-md rounded-lg overflow-hidden w-full sm:w-48 flex flex-col items-center p-4 relative
+}
+
+.rating {
+    @apply absolute top-1 right-4
+}
